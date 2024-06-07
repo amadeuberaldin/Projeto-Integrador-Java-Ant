@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="56" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jlblTitulo" min="-2" pref="271" max="-2" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                              <Component id="jlblGordurasTotais" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jlblCarboidratos" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jlblProteinas" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jlblPorcaoReferencia" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jlblCalorias" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="jtfPorcaoReferencia" max="32767" attributes="0"/>
+                              <Component id="jtfProteinas" max="32767" attributes="0"/>
+                              <Component id="jtfCarboidratos" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jtfCalorias" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jtfGordurasTotais" alignment="0" pref="128" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="73" max="32767" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="jbtConcluir" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jbtVoltar" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                  <Component id="jlblTitulo" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jlblPorcaoReferencia" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jtfPorcaoReferencia" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jlblProteinas" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jtfProteinas" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jlblCarboidratos" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jtfCarboidratos" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jlblCalorias" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jtfCalorias" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jlblGordurasTotais" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jtfGordurasTotais" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="58" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jbtVoltar" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jbtConcluir" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jlblTitulo">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Cadastro das Informa&#xe7;&#xf5;es Nutricionais"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlblPorcaoReferencia">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Por&#xe7;&#xe3;o Referencia:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlblProteinas">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Proteinas:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlblCarboidratos">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Carboidratos:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlblCalorias">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Calorias:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlblGordurasTotais">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Gorduras Totais:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jtfPorcaoReferencia">
+        </Component>
+        <Component class="javax.swing.JTextField" name="jtfProteinas">
+        </Component>
+        <Component class="javax.swing.JTextField" name="jtfCarboidratos">
+        </Component>
+        <Component class="javax.swing.JTextField" name="jtfCalorias">
+        </Component>
+        <Component class="javax.swing.JTextField" name="jtfGordurasTotais">
+        </Component>
+        <Component class="javax.swing.JButton" name="jbtVoltar">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Voltar"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtVoltarActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jbtConcluir">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Concluir"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtConcluirActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

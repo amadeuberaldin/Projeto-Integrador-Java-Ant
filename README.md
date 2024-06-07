@@ -1,4 +1,4 @@
-# Iintegrative Project: Sistema Gerenciaor de Alimentos
+# Integrative Project: Sistema Gerenciaor de Alimentos
 
 This project is now completed, but it represents the first version that integrates all the subjects from my Software Analysis and Development course. When I started this project, we had not yet learned about clean code practices or used JFrames. As a result, I initially had a single class containing all the system's dialogs with the user along with all the system's methods.
 
